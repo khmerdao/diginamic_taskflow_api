@@ -59,7 +59,7 @@ export class TaskService {
     });
 
     return {
-      tasks,
+      items: tasks,
       pagination: {
         total,
         page,
